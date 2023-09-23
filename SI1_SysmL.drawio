@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-23T16:32:33.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="LPEYfwjS8_WoutfeQO9L" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-23T16:36:50.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="U9JiM0ZvW332abaXi3J0" version="21.7.5" type="github">
   <diagram name="Page-1" id="2t6nADREDNhYs4s__2nl">
     <mxGraphModel dx="810" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="1" shadow="0">
       <root>
@@ -87,6 +87,30 @@
             <mxPoint x="770" y="320" as="sourcePoint" />
             <mxPoint x="730" y="220" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cxQVGq9vOzfQLNbDcg3x-30" value="Système 1 + 2 + n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cxQVGq9vOzfQLNbDcg3x-31" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="cxQVGq9vOzfQLNbDcg3x-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="470" as="sourcePoint" />
+            <mxPoint x="540" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cxQVGq9vOzfQLNbDcg3x-32" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=18;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cxQVGq9vOzfQLNbDcg3x-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="530" as="sourcePoint" />
+            <mxPoint x="660" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cxQVGq9vOzfQLNbDcg3x-33" value="&amp;nbsp;\(&amp;nbsp; &amp;nbsp;\eta = \frac{P_{2}}{P_{1}} \times \frac{P_{n}}{P_{2}} = \eta_1 \times \eta_2 \times \eta_n&lt;br&gt;&amp;nbsp; &amp;nbsp; \)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="490" width="140" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="cxQVGq9vOzfQLNbDcg3x-34" value="&amp;nbsp;\(&amp;nbsp; &amp;nbsp;\mathcal{P}_1&amp;nbsp; &amp;nbsp;\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="363" y="420" width="27" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxQVGq9vOzfQLNbDcg3x-35" value="&amp;nbsp;\(&amp;nbsp; &amp;nbsp;\mathcal{P}_n&amp;nbsp; &amp;nbsp;\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="633" y="420" width="27" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
